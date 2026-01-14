@@ -1,0 +1,8 @@
+hyprland
+waybar
+nwg-look
+rofi-wayland
+kvantum
+qt5ct
+qt6ct
+librewolf-bin
