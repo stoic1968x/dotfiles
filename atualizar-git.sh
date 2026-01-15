@@ -1,5 +1,6 @@
 #!/bin/bash
 set -euo pipefail
+yay -Qqet > pacotes_de_topo.txt
 
 CONFIG_DIRS=("swaync" "hypr" "pipewire" "gtk-3.0" "gtk-4.0" "rofi" "matugen" "wlogout" "kitty" "waybar" "Kvantum")
 
