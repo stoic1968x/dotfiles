@@ -9,7 +9,7 @@ for dir in "${CONFIG_DIRS[@]}"; do
 done
 
 for file in "$HOME/.zshrc" "$HOME/.zprofile" "$HOME/.gtkrc-2.0"; do
-    rsync -av "$file" "$HOME/Hyprland-Git/$(basename "$file")"
+    rsync -av "$file" "$HOME/Hyprland-Git/HOME/$(basename "$file")"
 done
 
 cd "$HOME/Hyprland-Git"
