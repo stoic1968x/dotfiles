@@ -1,0 +1,76 @@
+* {
+  border: 0;
+  margin: 0;
+  padding: 0;
+  spacing: 0;
+
+  urgent: #aa1122;
+  active: #8a2be2;
+  bg: #121212;
+  bg-alt: #434343;
+  fg: #e8eaed;
+  fg-alt: #434343;
+  selected: @fg-alt;
+  background-color: @bg;
+  text-color: @fg;
+}
+configuration {
+  font: "JetBrains Mono Nerd Font 12";
+  terminal: "alacritty";
+
+  combi {
+    display-name: "󰍜";
+  }
+
+  drun {
+    display-name: "󱓞";
+  }
+
+  run {
+    display-name: "";
+  }
+
+  window {
+    display-name: "";
+  }
+
+  timeout {
+    delay: 10;
+    action: "kb-cancel";
+  }
+
+  display-drun: "Application:";
+  display-window: "Window:";
+  display-filebrowser: "Files:";
+  case-sensitive: false;
+  sort: true;
+  sorting-method: "fzf";
+  modi: [
+    "run",
+    "drun",
+    "window"
+  ];
+  show-icons: true;
+  terminal: "alacritty";
+}
+
+window {
+    /* properties for window widget */
+    location:                    center;
+    anchor:                      center;
+    fullscreen:                  false;
+    width:                       600px;
+    x-offset:                    0px;
+    y-offset:                    0px;
+
+    /* properties for all widgets */
+    font:                        "JetBrains Mono Nerd Font 12";
+    enabled:                     true;
+    margin:                      0px;
+    padding:                     0px;
+    border:                      0px solid;
+    border-radius:               15px;
+    border-color:                @selected;
+    cursor:                      "default";
+    background-color:            @bg;
+}

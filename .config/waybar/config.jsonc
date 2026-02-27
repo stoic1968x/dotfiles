@@ -1,0 +1,24 @@
+[
+    {
+        "include": [
+            "~/.config/waybar/modules/modules.jsonc",
+            "~/.config/waybar/modules/custom-modules.jsonc"
+        ],
+        "layer": "top",
+        "modules-left": [
+            "clock"
+        ],
+        "modules-center": [
+            "custom/notification",
+            "hyprland/workspaces"
+        ],
+        "modules-right": [
+            "custom/logitech-battery",
+            "pulseaudio",
+            "battery",
+            // "network",
+            "power-profiles-daemon",
+            "tray"
+        ]
+    }
+]
