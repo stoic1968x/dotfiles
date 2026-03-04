@@ -13,7 +13,7 @@
             "hyprland/workspaces"
         ],
         "modules-right": [
-            "custom/logitech-battery",
+            // "custom/logitech-battery",
             "pulseaudio",
             "battery",
             // "network",
